@@ -26,3 +26,6 @@ function Component() {
 1. Gerar uma nova versão do componente que precisa ser renderizado
 2. Comparar essa nova versão com a versão anterior já salva na página
 3. Se houverem alterações, o React renderiza a nova versão em tela através do algoritmo de reconciliação capaz de verificar as alterações e mudar apenas o necessário
+
+# =========================================================================================
+

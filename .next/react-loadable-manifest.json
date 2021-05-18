@@ -1,4 +1,10 @@
 {
+  "../components/ProductItem.tsx -> ./AddProductToWishList": {
+    "id": "./components/AddProductToWishList.tsx",
+    "files": [
+      "static/chunks/components_AddProductToWishList_tsx.js"
+    ]
+  },
   "../node_modules/next/dist/client/next-dev.js -> ./dev/noop": {
     "id": "./node_modules/next/dist/client/dev/noop.js",
     "files": [
