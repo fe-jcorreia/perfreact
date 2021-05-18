@@ -27,7 +27,7 @@ export default function Home() {
       style: "currency",
       currency: "BRL",
     });
-    const products = data.map((product) => {
+    const products = data.map((product: any) => {
       return {
         id: product.id,
         title: product.title,
@@ -36,7 +36,7 @@ export default function Home() {
       };
     });
 
-    const totalPrice = data.reduce((total, product) => {
+    const totalPrice = data.reduce((total: any, product: any) => {
       return total + product.price;
     }, 0);
 
